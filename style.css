@@ -1,0 +1,28 @@
+div {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(118, 118, 219);
+    border: 2px solid;
+}
+
+.div1 {
+    z-index: 1;
+}
+
+.div2 {
+    top: -25px;
+    left: 75px;
+    z-index: 2;
+}
+
+.div3 {
+    top: -50px;
+    z-index: 3;
+}
+
+.div4 {
+    top: -75px;
+    left: 50px;
+    z-index: 4;
+}
